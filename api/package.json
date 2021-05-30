@@ -1,0 +1,19 @@
+{
+  "name": "sharing-meal-api",
+  "version": "1.0.0",
+  "description": "REST API for Sharing Meal application",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENV=production && node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alisher Iskakov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
